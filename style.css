@@ -1,0 +1,165 @@
+
+body {
+ font-family: Arial, Helvetica, sans-serif;
+ background-color: white;
+}
+
+
+#content {
+ width: 800px;
+ margin: 0 auto;
+ padding: 10px;
+ background: white;
+ border: 1px solid #000;
+}
+
+
+.heading{
+	color: #333333;
+	text-align: center;
+}
+
+h1 {
+	font-size: 32px;
+    display: block;
+	color: #b50909;
+    margin-block-start: 1em;
+    font-weight: bold;
+}
+
+h2{
+	font-size: 17px;
+	font-weight: normal;
+	text-decoration: italic;
+}
+
+label {
+ color: #010202;
+ padding-left: 00px;
+ font-size: 14px;
+}
+
+
+.boxes {
+	font-size: 13px;
+}
+
+.boxes Rules {
+	height: 45px;
+}
+
+.boxesRight {
+	padding: 5px;
+}
+
+#buttons {
+	text-align: center;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px;
+  width: 262px;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+  outline: none;
+  color: #FFF;
+  background-color: rgb(152, 0, 0);
+  border: none;
+  border-radius: 15px;
+}
+
+.button:hover {
+  background-color: #222;
+  color: #fff;
+  }
+
+.button:active {
+  transform: translateY(2px);
+}
+
+#buttons input {
+ margin-bottom: .5em;
+}
+
+.inputbox {
+ width: 125px;
+ height: 35px;
+ margin-bottom: .5em;
+}
+
+
+table tr {
+	font-size: 15px;
+}
+
+.footer {
+	text-align: right;
+	color: #333333;
+	font-size: 15px;
+}
+
+
+
+legend {
+	font-size: 18px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.roll {
+	text-align: left;
+	display: inline-block;
+}
+
+.roll fieldset {
+	float: left;
+}
+
+form {
+	display: inline-block;
+}
+
+section {
+	border: 5px red;
+	float: left;
+	padding-right: 20px;
+	width: 380px;
+	height: 390px;
+}
+
+fieldset {
+	width: 340px;
+}
+
+.fieldsetRight {
+	height: 390px;
+}
+
+.fieldsetLeft {
+	height: 200px;
+}
+
+.dicePictures {
+	display: flex;
+}
+
+.dicePictures #firstDice {
+	padding-left: 20px;
+	width: 50%;
+}
+
+.result {
+	width: 270px;
+	height: 40px;
+	margin-bottom: .5em;
+	text-decoration: bold;
+}
