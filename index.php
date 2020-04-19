@@ -1,5 +1,3 @@
-<!–– Rajiv Basnet - Casino Craps  ––>
-
 <?php
 
 	session_start();
@@ -35,7 +33,7 @@
 	
 	<div class="heading" id ="content">
 		<h1> Welcome to Rajiv's Casino Craps</h1>
-		<h2> Roll the Dices, Get the Numbers on the Right to Win! </h2>
+		<h2> Roll the Dice, Get the Numbers on the Right to Win! </h2>
 	</div>
 	
 	<div id="content">
@@ -67,7 +65,7 @@
 			<br/>
 			
 			<fieldset>
-			<legend> Your Dices: </legend>
+			<legend> Your Dice: </legend>
 			
 				<div class = "boxes dicePictures">
 				<div id="firstDice">
@@ -102,7 +100,7 @@
 			<div class = "boxes boxesRight">
 				<table>
 					<tr>
-								<input type="submit" value="Roll the Die" class = "button" id = "calculate">
+								<input type="submit" value="Roll the Dice" class = "button" id = "calculate">
 					</tr>
 				</table>
 			</div>

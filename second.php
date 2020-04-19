@@ -1,4 +1,3 @@
-
 <?php
 
 	session_start();
@@ -56,7 +55,7 @@
 	
 	<div class="heading" id ="content">
 		<h1> Welcome to Rajiv's Casino Craps</h1>
-		<h2> Roll the Dices, Get the Numbers on the Right to Win! </h2>
+		<h2> Roll the Dice, Get the Numbers on the Right to Win! </h2>
 	</div>
 	
 	<div id="content">
@@ -88,7 +87,7 @@
 			<br/>
 			
 			<fieldset>
-			<legend> Your Dices: </legend>
+			<legend> Your Dice: </legend>
 			
 			<div class = "boxes dicePictures">
 				<div id="firstDice">
@@ -162,8 +161,16 @@
 		
 			<div class = "boxes boxesRight">
 				<table>
-					<tr>
-								<input type="submit" value="Roll Again" class = "button" id = "rollagain" name = "rollagain"/>
+					<tr>	
+					<?php
+						if (strpos($result, "Won") !== false or strpos($result, "Lost") !== false) {
+							echo "<input type = \"submit\" value=\"Roll Again\" class=\"button\" id =\"rollagain\" name =\"rollagain\" disabled/>";
+						}
+						else {
+							echo "<input type = \"submit\" value=\"Roll Again\" class=\"button\" id =\"rollagain\" name =\"rollagain\"/>";
+						}
+					?>
+								<!-- <input type="submit" value="Roll Again" class = "button" id = "rollagain" name = "rollagain"/> -->
 					</tr>
 					<tr>
 								<input type="button" value="Start Over" class = "button" id = "startover" onclick="window.location.href = 'index.php';"/>
